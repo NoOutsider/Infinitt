@@ -38,10 +38,9 @@
   margin-left: 300px; */
 }
 
-.homelogin{
+#show, #login {
   text-decoration: none;
   color: black;
-  margin: 10px;  
 }
 
 .header_searchInput{

@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -8,7 +9,9 @@ const Home = () => {
       <div className="margin" />
       <div>
         <p>
-          <h2>질병통계</h2>
+          <Link to="/show" id="show">
+            <h2>질병통계</h2>
+          </Link>
         </p>
         <ul>
           <li>

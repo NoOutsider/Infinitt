@@ -1,7 +1,6 @@
 import React from "react";
 import "./Header.css";
 import SearchIcon from "@mui/icons-material/Search";
-import ShoppingBasketIcon from "@mui/icons-material/ShoppingBasket";
 import { Link } from "react-router-dom";
 
 function header() {
@@ -15,13 +14,15 @@ function header() {
       </Link>
 
       <div className="header_centerLocation">
-        <div className="header_option">질병 통계 데이터</div>
+        <Link to="/show" id="show">
+          <div className="header_option">질병 통계 데이터</div>
+        </Link>
         <div className="header_option">병의원 / 약국 찾기</div>
         <div className="header_option">구독과 좋아요</div>
       </div>
 
       <div className="header_leftLocation">
-        <Link to="/login" className="homelogin">
+        <Link to="/login" id="login">
           <div className="header_option">로그인</div>
         </Link>
 
