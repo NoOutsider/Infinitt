@@ -2,23 +2,43 @@
     margin: 50px;
 }
 
-#statTitle {
+h2 {
     text-align: center;
-}
-
-#locationTitle {
-    text-align: center;
+    margin: 30px;
 }
 
 ul {
     list-style-type: none;
     display: flex;
-    width: 700px;
+    width: 800px;
     margin: 0px auto;
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 li {
     text-align: center;
-    margin: 50px 50px;
+    margin: 30px 50px;
+}
+
+.locationImg {
+    display : flex;
+    justify-content : center;
+    margin: 40px;
+}
+
+#hosImg, #pharImg {
+    margin: 10px ;
+}
+
+.locationButtons {
+    display : flex;
+    justify-content : center
+}
+
+button {
+    font-size: xx-large;
+}
+
+ #hosButton, #pharButton{
+    margin: 0px 160px;
 }

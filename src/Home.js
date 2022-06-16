@@ -5,10 +5,10 @@ const Home = () => {
   return (
     <div>
       <img src="images/mainImage.jpg" alt="" width="100%" height="700px" />
-      <div className="margin"></div>
+      <div className="margin" />
       <div>
         <p>
-          <h2 id="statTitle">질병통계</h2>
+          <h2>질병통계</h2>
         </p>
         <ul>
           <li>
@@ -46,8 +46,32 @@ const Home = () => {
         </ul>
       </div>
       <p>
-        <h2 id="locationTitle">위치</h2>
+        <h2>위치찾기</h2>
       </p>
+      <div className="locationImg">
+        <img
+          id="hosImg"
+          src="images/hospitalImage.jpg"
+          width="400px"
+          height="300px"
+        />
+        <img
+          id="pharImg"
+          src="images/pharmacyImage.jpg"
+          width="400px"
+          height="300px"
+        />
+      </div>
+      <div className="locationButtons">
+        <button id="hosButton">
+          <img src="images/mapIcon.png" width="25px" />
+          병원
+        </button>
+        <button id="pharButton">
+          <img src="images/mapIcon.png" width="25px" />
+          약국
+        </button>
+      </div>
     </div>
   );
 };
