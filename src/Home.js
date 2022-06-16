@@ -5,7 +5,11 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div>
-      <img src="images/mainImage.jpg" alt="" width="100%" height="700px" />
+      <div className="contents">
+        <div className="contentTxt">
+          <h2>HEALTH CARE INFORMATION</h2>
+        </div>
+      </div>
       <div className="margin" />
       <div>
         <p>
