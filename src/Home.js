@@ -1,19 +1,7 @@
-import React from 'react';
-import './Home.css';
-import Sidebar from './components/Sidebar'
+import React from "react";
 
-function Home() {
-  return (
-    <div className="home">
-      <Sidebar width={300} />
-      <div className="home-container">
-        <img className="home-img" src="https://forward.nhn.com/2020/seoul/hands-on-labs/toastui.chart-dashboard/_images/step08.png"
-          alt="" />
-      </div>
-
-
-    </div>
-  );
-}
+const Home = () => {
+  return <div></div>;
+};
 
 export default Home;
