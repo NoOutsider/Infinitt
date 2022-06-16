@@ -1,0 +1,15 @@
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: gray;
+    margin-top: 50px;
+    padding: 50px;
+    text-align: center;
+    color: aliceblue;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
