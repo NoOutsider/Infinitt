@@ -4,7 +4,7 @@ import Sidebar from "./components/Sidebar";
 
 function Show() {
   return (
-    <div className="shoe">
+    <div className="show">
       <Sidebar width={300} />
       <div className="show-container">
         <img
