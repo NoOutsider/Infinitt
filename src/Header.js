@@ -18,7 +18,11 @@ function header() {
         <Link to="/show" id="show">
           <div className="header_option">질병 통계 데이터</div>
         </Link>
-        <div className="header_option">병의원 / 약국 찾기</div>
+
+        <Link to="/find" id="find">
+          <div className="header_option">병의원 / 약국 찾기</div>
+        </Link>
+
         <div className="header_option">구독과 좋아요</div>
       </div>
 
