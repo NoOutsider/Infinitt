@@ -6,6 +6,13 @@ function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
+  const signIn = e => {
+    e.preventDefault();
+  }
+
+  const register = e => {
+    e.preventDefault();
+  }
 
 
   return (
@@ -20,17 +27,17 @@ function Login() {
 
         <form>
           <h5> 이메일 </h5>
-          <input type="text" />
+          <input value={email} onChange={e => setEmail(e.target.value)} type="text" />
           <h5> 비밀번호 </h5>
-          <input type="password" />
+          <input value={password} onChange={e => setPassword(e.target.value)} type="password" />
 
-          <button className="login_signInButton"> 로그인 하기 </button>
+          <button onClick={signIn} className="login_signInButton"> 로그인 하기 </button>
 
         </form>
 
         <p> 이용 약관 동의하십니까? </p>
 
-        <button className="login_registerButton"> 회원가입 </button>
+        <button Onclick={register} className="login_registerButton"> 회원가입 </button>
 
 
       </div>
