@@ -1,9 +1,9 @@
 /*global kakao*/
 import React, { useEffect } from 'react'
-import "./Find.css"
-import Sidebar from "./components/Sidebar";
+import "./MapView.css"
+import Sidebar from "./Sidebar";
 
-function Find() {
+function MapView() {
 
   useEffect(() => {
     var mapContainer = document.getElementById('map'),
@@ -71,12 +71,12 @@ function Find() {
 
 
   return (
-    <div className="find">
+    <div className="mapView">
       <Sidebar width={300} />
       <div className="map" id="map" style={{ width: "auto", height: "400px" }}></div>
     </div>
   );
 }
 
-export default Find;
+export default MapView;
 

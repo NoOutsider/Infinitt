@@ -1,10 +1,10 @@
 import "./App.css";
-import Header from "./Header";
-import Home from "./Home";
-import Login from "./Login";
-import Show from "./Show";
-import Footer from "./Footer";
-import Find from "./Find"
+import Header from "./components/Header";
+import Home from "./components/Home";
+import Login from "./components/Login";
+import Show from "./components/ShowData";
+import Footer from "./components/Footer";
+import MapView from "./components/MapView"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/show" element={<Show />} />
-          <Route path="/find" element={<Find />} />
+          <Route path="/mapView" element={<MapView />} />
           <Route path="/login" element={<Login />} />
         </Routes>
         <Footer />

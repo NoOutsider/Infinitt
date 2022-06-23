@@ -1,10 +1,10 @@
 import React from "react";
-import "./Show.css";
-import Sidebar from "./components/Sidebar";
+import "./ShowData.css";
+import Sidebar from "./Sidebar";
 
-function Show() {
+function ShowData() {
   return (
-    <div className="show">
+    <div className="showData">
       <Sidebar width={300} />
       <div className="show-container">
         <img
@@ -17,4 +17,4 @@ function Show() {
   );
 }
 
-export default Show;
+export default ShowData;

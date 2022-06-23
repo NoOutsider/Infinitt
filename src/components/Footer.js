@@ -9,7 +9,7 @@ const Footer = () => {
       <h5>인피니트헬스케어 1기 교육과정 최종프로젝트 - NoOutsider</h5>
       <h4>정민제 | 김진모 | 유현수 | 이성주</h4>
       <br />
-      <a href="https://github.com/NoOutsider" target="_blank">
+      <a href="https://github.com/NoOutsider" target="_blank" rel="noopener noreferrer">
         Github
       </a>
     </div>
